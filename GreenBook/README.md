@@ -44,5 +44,5 @@ Repository for the GreenBook project.
   Joseph Adrian Almeida dos santos<br>
     josephadrian123@gmail.com
    
-  Islayne Pereira da Luz<br>
-    islayne.pereira@hotmail.com
+  Rafael da Silva Marinho<br>
+    marinhor978@gmail.com
