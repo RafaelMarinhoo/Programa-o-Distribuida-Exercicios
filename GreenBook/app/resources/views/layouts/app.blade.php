@@ -11,7 +11,8 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script> 
+    <script src="{{ asset('js/myjs.js') }}" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     
     

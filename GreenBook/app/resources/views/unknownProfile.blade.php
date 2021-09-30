@@ -9,15 +9,15 @@
 
                 <div class="card-body">
                     @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
+                    <div class="alert alert-success" role="alert">
+                        {{ session('status') }}
+                    </div>
                     @endif
                     <div class="row justify-content-center">
-                    <h2>Unknown Profile :( &#127793	 </h2>
+                        <h2>Unknown Profile :( &#127793 </h2>
                     </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-@endsection
+    @endsection

@@ -38,7 +38,6 @@ class HomeController extends Controller
         $posts = Post::whereIn('user_id', $ids)->latest()->get();
         
         
-        
         return view('home', ['user' => $user, 'posts' => $posts]);
     }
 
@@ -60,8 +59,9 @@ class HomeController extends Controller
             $post->save();
             Auth::user()->posts()->save($post);
 
-        return redirect(route('home'));
-
+        
+            return redirect(route('home'));
+        
     }
 
     public function comment(Request $request){

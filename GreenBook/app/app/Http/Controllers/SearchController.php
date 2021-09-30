@@ -26,7 +26,7 @@ class SearchController extends Controller
     public function index(Request $request)
     {
         if($request->name){
-        $users = User::where('name', 'like', '%'.$request->name.'%')
+        $users = User::where('name', 'ilike', '%'.$request->name.'%')
         ->get();
 
         return view('search', ['users' => $users, 'query' => $request->name]);

@@ -49,7 +49,7 @@ Route::get('/messages', 'MessagesController@index')->name('messages');
 //chat
 Route::get('/chat', 'ChatController@index')->name('chat');
 Route::get('/list', 'ChatController@list')->name('list');
-Route::get('/insertMessage', 'ChatController@insertMessage')->name('insertMessage');
+Route::match(['get', 'post'], '/insertMessage', 'ChatController@insertMessage')->name('insertMessage');
 
 //search
 Route::get('/search', 'SearchController@index')->name('search');
