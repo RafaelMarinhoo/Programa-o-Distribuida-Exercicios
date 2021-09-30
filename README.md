@@ -1,1 +1,4 @@
-# Programa-o-Distribuida-Exercicios
+# Programa-o-Distribuida
+
+
+Repositório para a disciplina de Programação Distribuída do curso de Sistemas para Internet do IFPB
